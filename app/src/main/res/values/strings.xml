@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">EDoctor</string>
+    <string name="main_activity_description">
+Just chat with your mentors</string>
+
+    <string name="login">Connexion</string>
+    <string name="chat_with_mentor">
+Chat with a mentor</string>
+
+    <!-- NOTIFICATION SERVICE -->
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="notification_title">"You have received a notification"</string>
+
+    <!-- MAIN ACTIVITY -->
+    <string name="error_not_connected">You must log in!</string>
+    <string name="error_authentication_canceled">Authentification cancle&#8230;</string>
+    <string name="error_no_internet">No internet connexion !</string>
+    <string name="error_unknown_error">An unknown error has occurred&#8230;</string>
+    <string name="connection_succeed">Authentication successful!</string>
+    <string name="button_login_text_logged">Display Profile</string>
+    <string name="button_login_text_not_logged">Connection</string>
+
+    <!-- LOGIN ACTIVITY -->
+    <string name="toolbar_title_login_activity">login Profile</string>
+    <string name="text_input_username">input user name</string>
+    <string name="text_view_email">Email Address :</string>
+    <string name="button_update_account">update aacount</string>
+    <string name="button_delete_account">delete account</string>
+    <string name="button_sign_out_account">Deconnection</string>
+    <string name="info_no_email_found">found email</string>
+    <string name="info_no_username_found">user name found</string>
+    <string name="popup_message_confirmation_delete_account">confirm delete ?</string>
+    <string name="popup_message_choice_yes">yes !</string>
+    <string name="popup_message_choice_no">No</string>
+    <string name="check_box_is_mentor">Are you a mentor?</string>
+
+    <!-- MENTOR_CHAT ACTIVITY -->
+    <string name="text_input_title_mentor_chat_activity">Compose your message</string>
+    <string name="button_title_mentor_chat_activity">Send</string>
+    <string name="text_view_mentor_chat_error">This thread currently contains no messages.&#8230;</string>
+    <string name="popup_title_permission_files_access">This app needs permission to work.</string>
+    <string name="toast_title_no_image_chosen">No image selected&#8230;</string>
+
+    <!-- Book api -->
+    <string name="thumbnail">Thumbnail</string>
+    <string name="title">Title</string>
+    <string name="category">Category</string>
+    <string name="price">40 $</string>
+    <string name="author">Author</string>
+    <string name="search">SEARCH</string>
+    <string name="hint">Enter your query </string>
+    <string name="description_image_view">Template for the image</string>
+    <string name="description_divider">Divider</string>
+    <string name="Failed_to_Load_data">Please check your Internet Connection</string>
+    <string name="NO_RESULT">No matching results</string>
+
+
+    <string-array name="fiche_type">
+        <item>Consultation</item>
+        <item>Hospitalisation</item>
+    </string-array>
+
+    <string-array name="specialite_spinner">
+        <item>Dentiste</item>
+        <item>Gynecologist</item>
+        <item>ENT Specialist</item>
+        <item>Orthopedic Surgeon</item>
+        <item>Pediatrician</item>
+        <item>Radiologist</item>
+        <item>Neurologists</item>
+    </string-array>
+
+    <string-array name="blood_spinner">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+    @parthsongfara
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="messages">Messages</string>
+    <string name="send">Send</string>
+
+</resources>
+
+
